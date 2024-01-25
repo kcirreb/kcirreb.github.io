@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10em;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  max-width: 90em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.link:hover > .hidden {
+  color: darkgrey;
+}
+
+.hidden {
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 3em;
+}
+
+.header__nav {
+  text-align: right;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 4em);
+  padding: 2em 5em;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.hero__scroll,
+.footer__scroll {
+  text-align: center;
+  color: darkgrey;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 10em 5em;
+  gap: 12em;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-item {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.text-xl {
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.text-lg {
+  font-size: 3rem;
+}
+
+.text-md {
+  font-size: 2rem;
+}
+
+.text-sm {
+  font-size: 1.5rem;
+}
+
+.text-xs {
+  font-size: 1rem;
+}
+
+.desc {
+  padding: 1em 0;
+  color: darkgrey;
+}
+
+.section-item-lg {
+  flex: 0 0 auto;
+  width: 57%;
+}
+
+.section-item-sm {
+  flex: 0 0 auto;
+  align-self: flex-end;
+  width: 40%;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.gap-sm {
+  gap: 1em;
+}
+
+.gap-md {
+  gap: 2em;
+}
+
+.gap-lg {
+  gap: 3em;
+}
+
+.tag {
+  border: 1px solid darkgrey;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  font-size: 0.75rem;
+}
