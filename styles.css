@@ -168,3 +168,7 @@ img {
   text-align: center;
   color: darkgrey;
 }
+
+.cover-image:hover {
+  opacity: 0.9;
+}
